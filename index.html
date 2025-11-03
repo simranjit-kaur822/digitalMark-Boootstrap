@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>WsCubeTech</title>
+</head>
+<body>
+<!-- download model -->
+<div class="modal fade" id="downModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Download Cirriculum</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Download whole Cirriculum of Digital Marketing
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Dowload</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- demo model -->
+<div class="modal fade" id="demoModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Booking For 2 Day Demo Class</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form class="p-4  bookform rounded-3">
+            <h3 class="fs-5 fw-bold">Book Your Free class Now!</h3>
+            <p class="demo-text text-secondary">2 days of free demo classes without playing in advance</p>
+            <label class="form-label ">Name</label>
+            <input  type="text" placeholder="Enter Your Name" class="form-control mb-2">
+            <label class="form-label">Email</label>
+            <input type="text" placeholder="Enter Your Email" class="form-control  mb-2">
+            <label class="form-label">Mobile Number</label>
+            <div class="input-group mb-2">
+                 <span class="input-group-text" id="basic-addon1">+91</span>
+                <input type="text" class="form-control" placeholder="Enter Your PhoneNumber">
+            </div>
+            <button class="btn btn-primary mt-3 regbtn form-control">Register Now </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Book</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <header class="container-fluid shadow  top-0 ">
+        <div class="container ">
+            <div class="row">
+                <figure class="col-lg-6 mb-0 pb-0 col-12 text-lg-start text-center">
+                    <img src="images/ws.png" class="wslogo" >
+                </figure>
+                <div class="col-lg-6">
+                    <div class="btn-outer d-flex justify-content-end gap-3 pt-4">
+                        <button class="btn btn-outline-success"><i class="fa-brands fa-whatsapp"></i>Chat with Us</button>
+                        <button class="btn btn-primary"><i class="fa-solid fa-phone"></i>Call Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container-fluid py-lg-5 py-sm-4 py-3">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="banner-content">
+                            <h1>Carrer Opportunities <br/> in <span class="text-primary">  Digital Marketing </span></h1>
+                            <p>Digital  Marketing courses are so good, you pay-after-placement </p>
+                            <ul type="none" class="m-0 p-0">
+                                <li><i class="fa-solid fa-circle-check text-primary"></i> Specialization: Performance Marketing</li>
+                                <li><i class="fa-solid fa-circle-check text-primary"></i> Min salary of Rs 4.5 LPA</li>
+                                <li><i class="fa-solid fa-circle-check text-primary"></i> 50 seats only</li>
+                            </ul>
+                            <div class="my-lg-3 my-2"> 
+                                <button class="btn btn-primary me-3 p-2" data-bs-toggle="modal" data-bs-target="#demoModal">Book 2 Day Demo</button>
+                                <button class="btn btn-outline-dark p-2" data-bs-toggle="modal" data-bs-target="#downModal"><i class="fa-solid fa-arrow-down"></i>Download Cirriculum</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                       <form class="p-4 shadow-lg bookform rounded-3">
+                            <h3 class="fs-5 fw-bold">Book Your Free class Now!</h3>
+                            <p class="demo-text text-secondary">2 days of free demo classes without playing in advance</p>
+                            <label class="form-label ">Name</label>
+                            <input  type="text" placeholder="Enter Your Name" class="form-control mb-2">
+                            <label class="form-label">Email</label>
+                            <input type="text" placeholder="Enter Your Email" class="form-control  mb-2">
+                            <label class="form-label">Mobile Number</label>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text" id="basic-addon1">+91</span>
+                                <input type="text" class="form-control" placeholder="Enter Your PhoneNumber">
+                            </div>
+                            <button class="btn btn-primary mt-3 regbtn form-control">Register Now </button>
+                       </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container shadow-lg card-content pt-3 pb-2">
+                <div class="row justify-content-evenly">
+                    <div class="col-lg-2 col-md-4 text-center">
+                         <h3 class="text-primary ">1000+</h3>
+                         <p class="text-secondary">Student trained</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 text-center">
+                        <h3 class="text-primary">₹ 4.5 LPA</h3>
+                        <p class="text-secondary">Student trained</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 text-center">
+                        <h3 class="text-primary">320+</h3>
+                        <p class="text-secondary">Recuiting Partners</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 text-center">
+                        <h3 class="text-primary">10:00 AM </h3>
+                        <p class="text-secondary">Program Timing</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 text-center">
+                        <h3 class="text-primary">11th May</h3>
+                        <p class="text-secondary">Next batch Start</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid highlight mt-3 py-5">
+          <div class="mx-4">
+               <h1 class="fs-3 fw-bold">Key Highlights of the Course</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi totam inventore aliquid.</p>
+               <div class="mt-4 mx-2">
+                  <div class="row justify-content-between d-gap gap-3">
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                    <div class="idiv me-3">
+                      <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold">Assignment </br> & Module Testing</h3>
+                      <p class="text-secondary">Test Your Knowledge</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                      <div class="idiv me-3">
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold"> Industry-recognized </br> Certificate</h3>
+                      <p class="text-secondary">Stand out to your professional</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                    <div class="idiv me-3">
+                     <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold">Live Classes & </br> Recorded Lectures</h3>
+                      <p class="text-secondary">Best of both worlds of learning</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                    <div class="idiv me-3">
+                      <i class="fa-solid fa-download"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold">Download </br> Content</h3>
+                      <p class="text-secondary">With Lifetime Access</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                    <div class="idiv me-3">
+                      <i class="fa-solid fa-folder"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold">6 Industry Level</br>Project</h3>
+                      <p class="text-secondary">Get Practical Skills</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  bg-white shadow d-flex flex-row pt-3 m-1">
+                    <div class="idiv me-3">
+                      <i class="fa-solid fa-message"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 fw-bold">4 Live Doubt Clearing </br> Sessions</h3>
+                      <p class="text-secondary">Get a Clear Understanding</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+               <div class="d-flex flex-row justify-content-center mt-5">
+                <button class="bg-primary text-white p-2 px-4 border border-primary rounded" data-bs-toggle="modal" data-bs-target="#demoModal">Book Free Class</button>
+               </div>
+          </div>
+        </div>
+        <div class="container-fluid Cirriculum my-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-11">
+                <h2 class="text-center fw-bold">Cirriculum of </br> Our Digital Marketing</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Adipisci eius et molestias soluta neque veritatis nesciunt amet.
+                </p>
+                <ul class="nav nav-pills my-4">
+                  <li class="nav-item">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-intro">Introduction</button>
+                  </li>
+                   <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-casestudy">Case Studies</button>
+                  </li>
+                   <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-ad">Google AD Senses</button>
+                  </li>
+                   <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-seo">SEO Matery</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-study">Digital Studies</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-google">Google Analysis</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-sites">Social media Sites</button>
+                  </li>
+                </ul>
+                <div class="tab-content shadow p-lg-5 p-3">
+                  <div class="tab-pane fade show active" id="pills-intro">
+                    <p><i class="fa-solid fa-circle-check"></i> What is Digital Marketing?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Scope of Digital Marketing?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Requirement od Digital Marketing?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> DM for Working Professitional?</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-casestudy">
+                    <p><i class="fa-solid fa-circle-check"></i> McDonald's Mass Personalization</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Sephora's Virtual Assistant</p>
+                    <p><i class="fa-solid fa-circle-check"></i> General Motor's Redefined Digital Marketing</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-ad">
+                    <p><i class="fa-solid fa-circle-check"></i> Personalization in Digital Marketing</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Latest trents in marketing</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Job application for fututre</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-seo">
+                    <p><i class="fa-solid fa-circle-check"></i> Digital marketing for the small and large business</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Virtual Assistant</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Redefined Digital Marketing</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Latest working trends</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Dm for Digital Marketing</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-study">
+                    <p><i class="fa-solid fa-circle-check"></i> What exactly is Digital Marketing, and why is it so important today?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Who should consider taking a Digital Marketing course? Is it for me?</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-google">
+                    <p><i class="fa-solid fa-circle-check"></i>  What's the typical duration of a Digital Marketing course in India?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> What are the key modules or topics typically covered in a comprehensive Digital Marketing course?</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Do I need a specific educational background to enroll in a Digital Marketing course?</p>
+                  </div>
+                  <div class="tab-pane fade " id="pills-sites">
+                    <p><i class="fa-solid fa-circle-check"></i> Mass Personalization</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Virtual Assistant</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Redefined Digital Marketing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid question">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                 <h2 class="text-center fw-bold">Digital Marketing Course </br> FAQS</h2>
+                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat eos aliquid possimus.</p>
+                 <div class="accordion">
+                  <div class="accordion-item mb-3">
+                    <button class="accordion-header accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-one">
+                      What exactly is Digital Marketing, and why is it so important today?
+                    </button>
+                    <div id="faq-one" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident saepe vel cumque? Nihil beatae vitae id
+                        ducimus expedita ipsa nobis unde, quibusdam dolor officia, perferendis, ratione deleniti reiciendis dignissimos.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam omnis incidunt soluta, minima temporibus deserunt
+                        itaque asperiores tenetur, porro in expedita laudantium deleniti! Aliquam obcaecati quam, aliquid optio veniam tenetur?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <button class="accordion-header accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-two">
+                       Who should consider taking a Digital Marketing course? Is it for me?
+                    </button>
+                    <div id="faq-two" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident saepe vel cumque? Nihil beatae vitae id
+                        ducimus expedita ipsa nobis unde, quibusdam dolor officia, perferendis, ratione deleniti reiciendis dignissimos.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam omnis incidunt soluta, minima temporibus deserunt
+                        itaque asperiores tenetur, porro in expedita laudantium deleniti! Aliquam obcaecati quam, aliquid optio veniam tenetur?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <button class="accordion-header accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-three">
+                      What's the typical duration of a Digital Marketing course in India?
+                    </button>
+                    <div id="faq-three" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident saepe vel cumque? Nihil beatae vitae id
+                        ducimus expedita ipsa nobis unde, quibusdam dolor officia, perferendis, ratione deleniti reiciendis dignissimos.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam omnis incidunt soluta, minima temporibus deserunt
+                        itaque asperiores tenetur, porro in expedita laudantium deleniti! Aliquam obcaecati quam, aliquid optio veniam tenetur?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <button class="accordion-header accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-four">
+                      What are the key modules or topics typically covered in a comprehensive Digital Marketing course?
+                    </button>
+                    <div id="faq-four" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident saepe vel cumque? Nihil beatae vitae id
+                        ducimus expedita ipsa nobis unde, quibusdam dolor officia, perferendis, ratione deleniti reiciendis dignissimos.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam omnis incidunt soluta, minima temporibus deserunt
+                        itaque asperiores tenetur, porro in expedita laudantium deleniti! Aliquam obcaecati quam, aliquid optio veniam tenetur?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <button class="accordion-header accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-five">
+                     Do I need a specific educational background to enroll in a Digital Marketing course?
+                    </button>
+                    <div id="faq-five" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident saepe vel cumque? Nihil beatae vitae id
+                        ducimus expedita ipsa nobis unde, quibusdam dolor officia, perferendis, ratione deleniti reiciendis dignissimos.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam omnis incidunt soluta, minima temporibus deserunt
+                        itaque asperiores tenetur, porro in expedita laudantium deleniti! Aliquam obcaecati quam, aliquid optio veniam tenetur?
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+           </div>
+         </div>
+        </div>
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row my-2">
+              <div class="col-11 py-5">
+                <h2 class=" text-center fs-3 fw-bold">Top Countries Hiring Digital Marketing in India</h2>
+                <div class="logo justify-content-center">
+                  <img src="images/tcslogo.jpeg" class="comlogo ">
+                  <img src="images/redbus.webp" class="comlogo">
+                  <img src="images/Autodesk.jpg" class="comlogo">
+                  <img src="images/Wiprologo.jpg" class="comlogo2">
+                  <img src="images/info.jpg" class="comlogo3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <footer>
+      <div class="container-fluid footer text-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8 text-center py-4">
+              <img src="images/ws.png" class="wslogo">
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum sint obcaecati?
+                Possimus labore dicta repellat quos, iure magni ipsa esse? Veniam earum illo optio et 
+                neque minima ipsa tempora.</p>
+              <hr>
+              <p>All rights are reserved by <a href="#">WsCubeTech</a></p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
