@@ -1,0 +1,79 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.banner-content h1{
+    font-size: 52px;
+    font-weight: 30px;
+}
+
+.banner-content p{
+    font-size: 20px;
+}
+
+.banner-content li{
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+.banner-content button{
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.demo-text{
+    font-size: 12px;
+}
+
+.card-content{
+    margin-top: 60px;
+}
+
+.card-content p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.highlight{
+    background-color:#F1F0FF;
+}
+
+.highlight p{
+    font-size: 12px;
+}
+
+.idiv{
+    background-color:#F1F0FF;
+    width: 65px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.question{
+     background-color:#F1F0FF;
+}
+.logo{
+    margin-left: 65px;
+}
+.comlogo{
+    height: 100px;
+}
+.comlogo2{
+    height: 100px;
+    width: 200px;
+}
+.comlogo3{
+    height: 100px;
+    width: 200px;
+}
+.footer{
+    background-color: #0A2541;
+}
+.wslogo{
+    height: 70px;
+    width: 140px;
+}
+.footer p{
+    font-size: 13px;
+}
